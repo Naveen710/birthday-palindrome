@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+:root {
+    --bg-color: #6c737d;
+    --btn-bg-color: #283143;
+    --text-btn: #f3f4f6;
+}
+
+
+
+
+body {
+    
+    text-align: center;
+    margin: auto;
+    background-color: var(--btn-bg-color);
+    color: var(--text-btn);
+    max-width: 600px;
+}
+
+.container {
+    width: 100%;
+   
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    border: double thick var(--text-btn);
+    margin-top: 1%;
+    margin-bottom: 0;
+    
+}
+
+
+#heading {
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+}
+
+#sub-heading {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+#info {
+    padding-bottom: 2rem;
+}
+
+label{
+    display: block;
+    font-size: 2rem;
+    
+}
+
+input {
+    width:25%;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    border: 0.1rem solid black;
+    height: 1.3rem;
+    font-weight: bold;
+    font-size: 1.3rem
+    
+}
+
+#date-btn {
+    font-weight: bold;
+    
+    padding: 0.8rem;
+    width: 20%;
+    margin-top: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    font-size: 1.1rem
+}
+
+#output {
+    margin-top: 1.5rem;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
